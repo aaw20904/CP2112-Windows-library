@@ -2,7 +2,7 @@
 #define ADAPTER_H_INCLUDED
 #include <windows.h>
 #include "SLABCP2112.h"  // CP2112 HID-to-SMBus header
-
+//Author: Andrii Androsovych
 
         #define CP2112_VENDOR_ID 0x10c4
         #define CP2112_PRODUCT_ID 0xea90
@@ -128,6 +128,7 @@ unsigned int testFunction ( adapterStruct * hAdapter,
  int loadDynamicLibrary(adapterStruct *hAdapter, char* report);
    int amountOfCP2112 (adapterStruct *hAdapter);
  //the number of CP2112 device, which will has been opened during initialization inside the initAdapter() function
+
  #define CP2112_DEVICE_NUMBER   0
 
 #endif // ADAPTER_H_INCLUDED
