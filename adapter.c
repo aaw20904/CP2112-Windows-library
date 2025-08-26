@@ -2,7 +2,7 @@
 #include "SLABCP2112.h"
 #include "adapter.h"
 #include <stdio.h>
-
+//Author: Andrii Androsovych
 
  int checkTransferResultCode( HID_SMBUS_STATUS status, char* reportString);
  void checkTransactionStatus(HID_SMBUS_S0 errCode, char* text);
@@ -383,5 +383,6 @@
 
 
   }
+
 
 
