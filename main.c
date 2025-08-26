@@ -3,7 +3,7 @@
 #include "SLABCP2112.h"  // CP2112 HID-to-SMBus header
 #include "adapter.h"
 #include <string.h>
-
+//Author: Andrii Androsovych. The code was written in Code::Blocks
  HID_SMBUS_STATUS operationResult;  //status of an operatoin
       const BYTE message1[]="Hello word!\0";
       const BYTE message2[]="The quick brown fox jumps over the lazy dog\0";
@@ -187,3 +187,4 @@ int main() {
     deInitAdapterCloseLib(&adapterHandle);
     return 0;
 }
+
